@@ -1,0 +1,2 @@
+cmd /v:on /c "echo !time! & .\pbrt ImageOri\simple\room-sppm_01.pbrt --quiet--outfile ImageDes\room-sppm.tga & echo !time!" >>  windows.log
+cmd /v:on /c "echo !time! & .\pbrt ImageOri\cloud\smoke_00.pbrt --quiet --outfile ImageDes\smoke.tga & echo !time!" >>  windows.log
